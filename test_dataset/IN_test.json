@@ -1,0 +1,5236 @@
+{
+  "allGenes": [
+    {
+      "name": "PR",
+      "refSequence": "PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF",
+      "length": 99,
+      "drugClasses": [
+        {
+          "name": "PI",
+          "hasSurveilDrugResistMutations": true,
+          "hasRxSelectedMutations": true,
+          "mutationTypes": [
+            "Major",
+            "Accessory",
+            "Other"
+          ],
+          "drugs": [
+            {
+              "name": "ATV",
+              "fullName": "atazanavir/r",
+              "displayAbbr": "ATV/r",
+              "__typename": "Drug"
+            },
+            {
+              "name": "DRV",
+              "fullName": "darunavir/r",
+              "displayAbbr": "DRV/r",
+              "__typename": "Drug"
+            },
+            {
+              "name": "FPV",
+              "fullName": "fosamprenavir/r",
+              "displayAbbr": "FPV/r",
+              "__typename": "Drug"
+            },
+            {
+              "name": "IDV",
+              "fullName": "indinavir/r",
+              "displayAbbr": "IDV/r",
+              "__typename": "Drug"
+            },
+            {
+              "name": "LPV",
+              "fullName": "lopinavir/r",
+              "displayAbbr": "LPV/r",
+              "__typename": "Drug"
+            },
+            {
+              "name": "NFV",
+              "fullName": "nelfinavir",
+              "displayAbbr": "NFV",
+              "__typename": "Drug"
+            },
+            {
+              "name": "SQV",
+              "fullName": "saquinavir/r",
+              "displayAbbr": "SQV/r",
+              "__typename": "Drug"
+            },
+            {
+              "name": "TPV",
+              "fullName": "tipranavir/r",
+              "displayAbbr": "TPV/r",
+              "__typename": "Drug"
+            }
+          ],
+          "__typename": "DrugClass"
+        }
+      ],
+      "__typename": "Gene"
+    },
+    {
+      "name": "RT",
+      "refSequence": "PISPIETVPVKLKPGMDGPKVKQWPLTEEKIKALVEICTEMEKEGKISKIGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLDKDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLVGKLNWASQIYAGIKVKQLCKLLRGTKALTEVIPLTEEAELELAENREILKEPVHGVYYDPSKDLIAEIQKQGQGQWTYQIYQEPFKNLKTGKYARMRGAHTNDVKQLTEAVQKIATESIVIWGKTPKFKLPIQKETWEAWWTEYWQATWIPEWEFVNTPPLVKLWYQLEKEPIVGAETFYVDGAANRETKLGKAGYVTDRGRQKVVSLTDTTNQKTELQAIHLALQDSGLEVNIVTDSQYALGIIQAQPDKSESELVSQIIEQLIKKEKVYLAWVPAHKGIGGNEQVDKLVSAGIRKVL",
+      "length": 560,
+      "drugClasses": [
+        {
+          "name": "NRTI",
+          "hasSurveilDrugResistMutations": true,
+          "hasRxSelectedMutations": true,
+          "mutationTypes": [
+            "NRTI",
+            "Other"
+          ],
+          "drugs": [
+            {
+              "name": "ABC",
+              "fullName": "abacavir",
+              "displayAbbr": "ABC",
+              "__typename": "Drug"
+            },
+            {
+              "name": "AZT",
+              "fullName": "zidovudine",
+              "displayAbbr": "AZT",
+              "__typename": "Drug"
+            },
+            {
+              "name": "D4T",
+              "fullName": "stavudine",
+              "displayAbbr": "D4T",
+              "__typename": "Drug"
+            },
+            {
+              "name": "DDI",
+              "fullName": "didanosine",
+              "displayAbbr": "DDI",
+              "__typename": "Drug"
+            },
+            {
+              "name": "FTC",
+              "fullName": "emtricitabine",
+              "displayAbbr": "FTC",
+              "__typename": "Drug"
+            },
+            {
+              "name": "LMV",
+              "fullName": "lamivudine",
+              "displayAbbr": "3TC",
+              "__typename": "Drug"
+            },
+            {
+              "name": "TDF",
+              "fullName": "tenofovir",
+              "displayAbbr": "TDF",
+              "__typename": "Drug"
+            }
+          ],
+          "__typename": "DrugClass"
+        },
+        {
+          "name": "NNRTI",
+          "hasSurveilDrugResistMutations": true,
+          "hasRxSelectedMutations": true,
+          "mutationTypes": [
+            "NNRTI",
+            "Other"
+          ],
+          "drugs": [
+            {
+              "name": "DOR",
+              "fullName": "doravirine",
+              "displayAbbr": "DOR",
+              "__typename": "Drug"
+            },
+            {
+              "name": "EFV",
+              "fullName": "efavirenz",
+              "displayAbbr": "EFV",
+              "__typename": "Drug"
+            },
+            {
+              "name": "ETR",
+              "fullName": "etravirine",
+              "displayAbbr": "ETR",
+              "__typename": "Drug"
+            },
+            {
+              "name": "NVP",
+              "fullName": "nevirapine",
+              "displayAbbr": "NVP",
+              "__typename": "Drug"
+            },
+            {
+              "name": "RPV",
+              "fullName": "rilpivirine",
+              "displayAbbr": "RPV",
+              "__typename": "Drug"
+            }
+          ],
+          "__typename": "DrugClass"
+        }
+      ],
+      "__typename": "Gene"
+    },
+    {
+      "name": "IN",
+      "refSequence": "FLDGIDKAQEEHEKYHSNWRAMASDFNLPPVVAKEIVASCDKCQLKGEAMHGQVDCSPGIWQLDCTHLEGKIILVAVHVASGYIEAEVIPAETGQETAYFLLKLAGRWPVKTIHTDNGSNFTSTTVKAACWWAGIKQEFGIPYNPQSQGVVESMNKELKKIIGQVRDQAEHLKTAVQMAVFIHNFKRKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAKIIRDYGKQMAGDDCVASRQDED",
+      "length": 288,
+      "drugClasses": [
+        {
+          "name": "INSTI",
+          "hasSurveilDrugResistMutations": true,
+          "hasRxSelectedMutations": true,
+          "mutationTypes": [
+            "Major",
+            "Accessory",
+            "Other"
+          ],
+          "drugs": [
+            {
+              "name": "BIC",
+              "fullName": "bictegravir",
+              "displayAbbr": "BIC",
+              "__typename": "Drug"
+            },
+            {
+              "name": "CAB",
+              "fullName": "cabotegravir",
+              "displayAbbr": "CAB",
+              "__typename": "Drug"
+            },
+            {
+              "name": "DTG",
+              "fullName": "dolutegravir",
+              "displayAbbr": "DTG",
+              "__typename": "Drug"
+            },
+            {
+              "name": "EVG",
+              "fullName": "elvitegravir",
+              "displayAbbr": "EVG",
+              "__typename": "Drug"
+            },
+            {
+              "name": "RAL",
+              "fullName": "raltegravir",
+              "displayAbbr": "RAL",
+              "__typename": "Drug"
+            }
+          ],
+          "__typename": "DrugClass"
+        }
+      ],
+      "__typename": "Gene"
+    }
+  ],
+  "currentVersion": {
+    "text": "HIVDB_9.1",
+    "publishDate": "2022-06-02",
+    "__typename": "DrugResistanceAlgorithm",
+    "display": "HIVDB 9.1",
+    "family": "HIVDB",
+    "version": "9.1"
+  },
+  "currentProgramVersion": {
+    "text": "3.2.11",
+    "publishDate": "2022-10-12",
+    "__typename": "SierraVersion"
+  },
+  "report": {
+    "inputSequence": {
+      "header": "FJ538974",
+      "__typename": "UnalignedSequenceOutput",
+      "MD5": "e60cf5aab65b562d31689ba70ae7e962",
+      "sequence": "TTTTGGGATGGAATAGATAGGGCCCAAGAAGAGCATGAGAAATATCACAGTAATTGGAAAGCAATGGCTAGTGATTTTAACCTGCCACCTATAGTAGCAAAAGAAATAGTAGCCAGCTGTGATAAATGTCAGCTAAAAGGAGAAGCCATGCATGGACAAGTAGACTGTAGTCCAGGAATATGGCAATTAGATTGTACACATTTAGAAGGAAAAATTATCCTAGTAGCAGTTCATGTAGCCAGTGGATATATAGAAGCAGAAGTCATTCCAGCAGAGACAGGGCAGGAAACAGCATACTTTATCTTAAAACTAGCAGGAAGATGGCCAGTAAAAGTAATACATACAGACAATGGCAGTAACTTCACCAGTGCTGCGGTTAAGGCCGCCTGCTGGTGGGCAGGGATCAAGCAGGAATTTGGCATTCCCTACAATCCCCAAAGTCAAGGAGTAGTAGAATCTATGCATAAAGAATTAAAGAAAATTATAGGACAAGTAAGAGATCAGGCTGAACATCTTAAGACAGCAGTACAAATGGCAGTACTCATCCATAATTTTAAAAGAAAAGGGGGGATTGGGGGGTACAGTGCAGGGGAAAGAATAATAGACATAATAGCAACAGACATACAAACTAAAGAATTACAAAAACAAATTACAAATATTCAAAAATTTCGGGTTTATTACAGGGACAGCAGAGATCCACTTTGGAAAGGACCAGCAAAACTTCTCTGGAAAGGTGAAGGGGCAGTAGTAATACAAGATAATAGTGACATAAAAGTAGTGCCAAGGAGAAAAGCAAAGATCATTAGAGATTATGGAAAACAGATGGCAGGTGATGATTGTGTGGCAAGTAGACAGGATGAAGAT"
+    },
+    "bestMatchingSubtype": {
+      "display": "B (3.24%)",
+      "distance": 0.032407407407407406,
+      "referenceAccession": "KJ704787",
+      "__typename": "HIVBoundSubtype"
+    },
+    "availableGenes": [
+      {
+        "name": "pol",
+        "__typename": "Gene"
+      },
+      {
+        "name": "IN",
+        "__typename": "Gene"
+      },
+      {
+        "name": "vif",
+        "__typename": "Gene"
+      }
+    ],
+    "mixtureRate": 0,
+    "mutations": [
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "L2W",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "K7R",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "R20K",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "V31I",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "L101I",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "T112V",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "T124A",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "T125A",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "N155H",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "F181L",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "V201I",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "K219N",
+        "__typename": "Mutation"
+      },
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "N222K",
+        "__typename": "Mutation"
+      }
+    ],
+    "unusualMutations": [
+      {
+        "gene": {
+          "name": "IN",
+          "__typename": "Gene"
+        },
+        "text": "L2W",
+        "__typename": "Mutation"
+      }
+    ],
+    "frameShifts": [],
+    "insertions": [],
+    "deletions": [],
+    "stopCodons": [],
+    "ambiguousMutations": [],
+    "apobecMutations": [],
+    "mutationPrevalences": [
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "L2W",
+          "position": 2,
+          "reference": "L",
+          "triplet": "TGG",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "W",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.060024009603841535,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1295336787564767,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08936550491510277,
+                "percentageTreated": 4,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.008179290037624735,
+                "percentageTreated": 0.24009603841536614,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.020977554017201593,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1295336787564767,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.22675736961451248,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.041390728476821195,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 1.0101010101010102,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "F",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.008179290037624735,
+                "percentageTreated": 0.060024009603841535,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.041390728476821195,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.020977554017201593,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.041390728476821195,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "K7R",
+          "position": 7,
+          "reference": "K",
+          "triplet": "AGG",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "R",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.7457475380483436,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.0142566191446027,
+                "percentageTreated": 3.727810650887574,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.010362694300518,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.8833551769331587,
+                "percentageTreated": 2.857142857142857,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.3707865168539324,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.0752688172043012,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.174089068825911,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.5179856115107913,
+                "percentageTreated": 3.061224489795918,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "N",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.016293279022403257,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "L",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.0591715976331361,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "A",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.024439918533604887,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Q",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.7457475380483436,
+                "percentageTreated": 4.054054054054054,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.7983706720977597,
+                "percentageTreated": 1.1242603550295858,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6632124352331606,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.8833551769331587,
+                "percentageTreated": 2.857142857142857,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6741573033707865,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.35842293906810035,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.16194331983805668,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.14388489208633093,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "T",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0621761658031088,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.35842293906810035,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04048582995951417,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "D",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.024439918533604887,
+                "percentageTreated": 0.0591715976331361,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "E",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.17905102954341987,
+                "percentageTreated": 1.3513513513513513,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.5071283095723014,
+                "percentageTreated": 1.183431952662722,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0621761658031088,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.9174311926605505,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.044762757385854966,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "R20K",
+          "position": 20,
+          "reference": "R",
+          "triplet": "AAA",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "K",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 23.89261744966443,
+                "percentageTreated": 6.666666666666667,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 6.425963488843814,
+                "percentageTreated": 7.268464243845251,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.5546699366441854,
+                "percentageTreated": 6.024096385542169,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 6.127770534550195,
+                "percentageTreated": 2.857142857142857,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 8.463251670378618,
+                "percentageTreated": 12.903225806451612,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 8.80281690140845,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.8882138517618468,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 7.576840600428877,
+                "percentageTreated": 6.5420560747663545,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "G",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0447427293064877,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08100445524503848,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "E",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.07147962830593281,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "T",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.020437359493153485,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.020437359493153485,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Y",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0447427293064877,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "V31I",
+          "position": 31,
+          "reference": "V",
+          "triplet": "ATA",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 72.46059544658495,
+                "percentageTreated": 70.51282051282051,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 23.932119205298015,
+                "percentageTreated": 28.15926139642239,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 73.92467585923029,
+                "percentageTreated": 71.42857142857143,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.454545454545454,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 13.333333333333334,
+                "percentageTreated": 16.39344262295082,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 59.13978494623656,
+                "percentageTreated": 46.666666666666664,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 76.26766417290108,
+                "percentageTreated": 75,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 80.2593659942363,
+                "percentageTreated": 77.77777777777779,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "L",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.07204610951008646,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "M",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.041390728476821195,
+                "percentageTreated": 0.1154068090017311,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08232146532208273,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.35842293906810035,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "F",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.1154068090017311,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "L101I",
+          "position": 101,
+          "reference": "L",
+          "triplet": "ATC",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 21.260180025717958,
+                "percentageTreated": 24.489795918367346,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 45.91205211726385,
+                "percentageTreated": 53.64891518737672,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 94.42693974005513,
+                "percentageTreated": 95.45454545454545,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 29.601029601029598,
+                "percentageTreated": 23.25581395348837,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 84.64912280701753,
+                "percentageTreated": 65.21739130434783,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 87.62214983713355,
+                "percentageTreated": 90.9090909090909,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 11.270890011659542,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 89.99350227420403,
+                "percentageTreated": 91.84782608695652,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "T",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.016286644951140065,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.059078377313903106,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "F",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.024429967426710098,
+                "percentageTreated": 0.04930966469428008,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1287001287001287,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "V",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.34290612944706383,
+                "percentageTreated": 1.0204081632653061,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.1970684039087949,
+                "percentageTreated": 0.5424063116370809,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.9452540370224497,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.5148005148005148,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.0964912280701753,
+                "percentageTreated": 1.4492753623188406,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.6286644951140066,
+                "percentageTreated": 4.545454545454546,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.4978624174115818,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3898635477582846,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "M",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6000857265323617,
+                "percentageTreated": 2.0408163265306123,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.10586319218241043,
+                "percentageTreated": 0.04930966469428008,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.11815675462780621,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.9736842105263157,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.32573289902280134,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0388651379712398,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0649772579597141,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "T112V",
+          "position": 112,
+          "reference": "T",
+          "triplet": "GTA",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "V",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 85.81466842336407,
+                "percentageTreated": 65.625,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.6542687393179785,
+                "percentageTreated": 3.623553095118269,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 90.72041508680903,
+                "percentageTreated": 85.22727272727273,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 87.23684210526315,
+                "percentageTreated": 72.72727272727273,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 7.2727272727272725,
+                "percentageTreated": 5.797101449275362,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 59.46843853820598,
+                "percentageTreated": 71.42857142857143,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 97.81078967943706,
+                "percentageTreated": 50,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 84.86450760079313,
+                "percentageTreated": 85.63218390804597,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "M",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.185770750988142,
+                "percentageTreated": 1.0416666666666665,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.40693415805322697,
+                "percentageTreated": 0.35228988424760943,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.4589902215126721,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.9210526315789472,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.1363636363636365,
+                "percentageTreated": 1.4492753623188406,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.6544850498338874,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.5287508261731658,
+                "percentageTreated": 1.1494252873563218,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "A",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.7905138339920948,
+                "percentageTreated": 1.0416666666666665,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.215837877431432,
+                "percentageTreated": 4.730749874182185,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.4989024146876871,
+                "percentageTreated": 2.272727272727273,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.1052631578947367,
+                "percentageTreated": 11.363636363636363,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.5909090909090908,
+                "percentageTreated": 1.4492753623188406,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.9933554817275747,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3518373729476153,
+                "percentageTreated": 30,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3304692663582287,
+                "percentageTreated": 1.1494252873563218,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "R",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.4830917874396135,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.48018230650280785,
+                "percentageTreated": 0.5032712632108707,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.15964877270005987,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.39473684210526316,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.545454545454546,
+                "percentageTreated": 20.28985507246377,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6644518272425249,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06609385327164573,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06510946528851633,
+                "percentageTreated": 0.35228988424760943,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "C",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.024416049483193623,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "G",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04391743522178305,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.13157894736842105,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 7.553798858146685,
+                "percentageTreated": 15.625,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.282005371530887,
+                "percentageTreated": 6.894816305988928,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 6.1464777489523055,
+                "percentageTreated": 4.545454545454546,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.921052631578947,
+                "percentageTreated": 9.090909090909092,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 29.545454545454547,
+                "percentageTreated": 11.594202898550725,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 26.245847176079735,
+                "percentageTreated": 14.285714285714285,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.2118842845973417,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 10.971579643093191,
+                "percentageTreated": 7.471264367816093,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "K",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0878348704435661,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.17091234638235533,
+                "percentageTreated": 0.20130850528434827,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.039912193175014966,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2631578947368421,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.22727272727272727,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.33222591362126247,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.5287508261731658,
+                "percentageTreated": 1.1494252873563218,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "L",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1756697408871322,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.032554732644258164,
+                "percentageTreated": 0.050327126321087066,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.059868289762522446,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.45454545454545453,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06609385327164573,
+                "percentageTreated": 0.5747126436781609,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "T124A",
+          "position": 124,
+          "reference": "T",
+          "triplet": "GCT",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "A",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 61.13989637305699,
+                "percentageTreated": 70.83333333333334,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 21.765879614233455,
+                "percentageTreated": 25.71428571428571,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 64.11024565608149,
+                "percentageTreated": 67.44186046511628,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 76.4163372859025,
+                "percentageTreated": 61.36363636363637,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 56.666666666666664,
+                "percentageTreated": 32.83582089552239,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 56.10561056105611,
+                "percentageTreated": 72.72727272727273,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 83.79888268156425,
+                "percentageTreated": 60,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 80.03939592908733,
+                "percentageTreated": 86.66666666666667,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "V",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019972039145196723,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03990422984836393,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "E",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08635578583765112,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.05012531328320802,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2635046113306983,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "H",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04317789291882556,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.05819753907549052,
+                "percentageTreated": 0.15037593984962408,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.11983223487118035,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.33003300330033003,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.23942537909018355,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1969796454366382,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "G",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.2884283246977546,
+                "percentageTreated": 1.0416666666666665,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2909876953774526,
+                "percentageTreated": 0.2506265664160401,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.1783503095666068,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.689064558629776,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.3333333333333335,
+                "percentageTreated": 4.477611940298507,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.9603960396039604,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.9177972865123704,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.1667760998030205,
+                "percentageTreated": 3.3333333333333335,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "R",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.20050125313283207,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Q",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3408713002993016,
+                "percentageTreated": 0.2506265664160401,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.27960854803275415,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.9801980198019802,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3591380686352753,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1969796454366382,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "D",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06565988181221273,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "C",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019972039145196723,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 27.072538860103627,
+                "percentageTreated": 10.416666666666668,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.1366810774858664,
+                "percentageTreated": 2.506265664160401,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.293988416217296,
+                "percentageTreated": 1.1627906976744187,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.371541501976284,
+                "percentageTreated": 6.8181818181818175,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 11.11111111111111,
+                "percentageTreated": 20.8955223880597,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.9405940594059405,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.7182761372705506,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.1162179908076166,
+                "percentageTreated": 3.3333333333333335,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "N",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.397236614853195,
+                "percentageTreated": 3.125,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 22.33954107083472,
+                "percentageTreated": 16.691729323308273,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 17.41561813461154,
+                "percentageTreated": 11.627906976744185,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 6.982872200263504,
+                "percentageTreated": 11.363636363636363,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 8,
+                "percentageTreated": 4.477611940298507,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 26.4026402640264,
+                "percentageTreated": 22.727272727272727,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.666400638467677,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.202232435981615,
+                "percentageTreated": 3.888888888888889,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "K",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.10025062656641603,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019972039145196723,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "T125A",
+          "position": 125,
+          "reference": "T",
+          "triplet": "GCG",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "A",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 93.73659373659373,
+                "percentageTreated": 82.4742268041237,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 29.31572038070233,
+                "percentageTreated": 29.79571499750872,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 84.7011952191235,
+                "percentageTreated": 78.65168539325843,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 75.55847568988173,
+                "percentageTreated": 59.09090909090909,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 66.51982378854625,
+                "percentageTreated": 54.285714285714285,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 71.89542483660131,
+                "percentageTreated": 68.18181818181817,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 98.05220101285548,
+                "percentageTreated": 100,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 93.06736429038587,
+                "percentageTreated": 92.89617486338798,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "G",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0199203187250996,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "V",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.7722007722007722,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.7249753856252052,
+                "percentageTreated": 4.185351270553064,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.3745019920318724,
+                "percentageTreated": 1.1235955056179776,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.204993429697766,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 14.537444933920703,
+                "percentageTreated": 2.857142857142857,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.941176470588235,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.506427736657577,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.831262262916939,
+                "percentageTreated": 1.092896174863388,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0429000429000429,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.10666229077781425,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0199203187250996,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3432003432003432,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.6901870692484409,
+                "percentageTreated": 0.14947683109118087,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.4780876494023904,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.39421813403416556,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.4405286343612335,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 4.545454545454546,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3924133420536298,
+                "percentageTreated": 0.546448087431694,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "N",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04102395799146702,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0199203187250996,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Q",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.21450021450021448,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.05743354118805383,
+                "percentageTreated": 0.0996512207274539,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2589641434262948,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1314060446780552,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 1.092896174863388,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "P",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6006006006006006,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.14768624876928127,
+                "percentageTreated": 0.0996512207274539,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.7171314741035857,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2628120893561104,
+                "percentageTreated": 2.272727272727273,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.3215859030837005,
+                "percentageTreated": 4.285714285714286,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.32679738562091504,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.038955979742890535,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6540222367560496,
+                "percentageTreated": 1.092896174863388,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "K",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1314060446780552,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.32679738562091504,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "M",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.8204791598293404,
+                "percentageTreated": 0.4982561036372696,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.881057268722467,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "N155H",
+          "position": 155,
+          "reference": "N",
+          "triplet": "CAT",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "H",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 12.5,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 20.528455284552845,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 26.82926829268293,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 25,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 8.955223880597014,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 36.36363636363637,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 10,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 12.568306010928962,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03868471953578336,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "K",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019630938358853555,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "T",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.05081300813008131,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06435006435006435,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "D",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.007840062720501764,
+                "percentageTreated": 0.05081300813008131,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03868471953578336,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Q",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.05081300813008131,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0,
+                "percentageTreated": 0.10162601626016261,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "F181L",
+          "position": 181,
+          "reference": "F",
+          "triplet": "CTC",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "L",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.231945624468989,
+                "percentageTreated": 1.0416666666666665,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.5722200237435695,
+                "percentageTreated": 4.431314623338257,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.3771394845563643,
+                "percentageTreated": 1.1235955056179776,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.871794871794872,
+                "percentageTreated": 2.2222222222222223,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.3157894736842104,
+                "percentageTreated": 2.898550724637681,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.32679738562091504,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.42536736272235115,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.240440699935191,
+                "percentageTreated": 4.891304347826087,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "Y",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04248088360237893,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.21369212504946575,
+                "percentageTreated": 0.09847365829640572,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03934684241589612,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.21929824561403508,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.11600928074245939,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6480881399870383,
+                "percentageTreated": 1.0869565217391304,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "H",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06480881399870382,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03934684241589612,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "V201I",
+          "position": 201,
+          "reference": "V",
+          "triplet": "ATA",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 96.5561224489796,
+                "percentageTreated": 85.41666666666666,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 46.881107491856675,
+                "percentageTreated": 42.91477559253656,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 95.59984214680347,
+                "percentageTreated": 92.13483146067416,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 99.10714285714286,
+                "percentageTreated": 86.66666666666667,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 96.71772428884027,
+                "percentageTreated": 72.05882352941177,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 96.42857142857143,
+                "percentageTreated": 95.23809523809523,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 99.10818146568438,
+                "percentageTreated": 100,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 97.67441860465115,
+                "percentageTreated": 97.79005524861878,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "_",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.01973164956590371,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "L",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04251700680272109,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.01973164956590371,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.12755102040816327,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2188183807439825,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.038774718883288095,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "M",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.038774718883288095,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "K219N",
+          "position": 219,
+          "reference": "K",
+          "triplet": "AAT",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "N",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.721395150999575,
+                "percentageTreated": 7.291666666666667,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.5918609245357564,
+                "percentageTreated": 3.353057199211045,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.3238490416913653,
+                "percentageTreated": 2.247191011235955,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.585147247119078,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.87527352297593,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6535947712418301,
+                "percentageTreated": 4.545454545454546,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.07736943907156672,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.8794556059624108,
+                "percentageTreated": 3.867403314917127,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "E",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.25521054870267973,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08692216515211379,
+                "percentageTreated": 0.04930966469428008,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.07903576368306658,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.12804097311139565,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.12961762799740764,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "T",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1580403002765705,
+                "percentageTreated": 0.14792899408284024,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.06480881399870382,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Q",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.4253509145044662,
+                "percentageTreated": 1.0416666666666665,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.5452390359541683,
+                "percentageTreated": 0.6903353057199211,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 4.761904761904762,
+                "percentageTreated": 6.741573033707865,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.0243277848911652,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2188183807439825,
+                "percentageTreated": 1.4492753623188406,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.594771241830065,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.2961762799740766,
+                "percentageTreated": 2.209944751381215,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "R",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04253509145044662,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03160806005531411,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.13831258644536654,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03868471953578336,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      },
+      {
+        "boundMutation": {
+          "gene": {
+            "name": "IN",
+            "__typename": "Gene"
+          },
+          "text": "N222K",
+          "position": 222,
+          "reference": "N",
+          "triplet": "AAA",
+          "__typename": "Mutation"
+        },
+        "matched": [
+          {
+            "AA": "K",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 12.74426508071368,
+                "percentageTreated": 12.5,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 5.992211714217595,
+                "percentageTreated": 5.5254070054267395,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.6600790513833994,
+                "percentageTreated": 2.247191011235955,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 3.7037037037037033,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 1.75054704595186,
+                "percentageTreated": 1.4492753623188406,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.9803921568627451,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3872966692486445,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 2.5423728813559325,
+                "percentageTreated": 4.545454545454546,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "others": [
+          {
+            "AA": "R",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08496176720475786,
+                "percentageTreated": 1.0416666666666665,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03973615195104506,
+                "percentageTreated": 0.09866798223976321,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019762845849802372,
+                "percentageTreated": 1.1235955056179776,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "A",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03178892156083605,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019762845849802372,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Q",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08496176720475786,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03178892156083605,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0651890482398957,
+                "percentageTreated": 0.5681818181818182,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "H",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.3823279524214104,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.659620122387348,
+                "percentageTreated": 0.39467192895905284,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2766798418972332,
+                "percentageTreated": 2.247191011235955,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.38314176245210724,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "G",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.6535947712418301,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03872966692486445,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1303780964797914,
+                "percentageTreated": 0.5681818181818182,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "I",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019762845849802372,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "Y",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.04248088360237893,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03872966692486445,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "D",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.019762845849802372,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2188183807439825,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "T",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "A",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.08496176720475786,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "B",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0635778431216721,
+                "percentageTreated": 0.049333991119881605,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2766798418972332,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "D",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1277139208173691,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "F",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.2188183807439825,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF01_AE",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.03872966692486445,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.1955671447196871,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          },
+          {
+            "AA": "S",
+            "subtypes": [
+              {
+                "subtype": {
+                  "name": "C",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.039525691699604744,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              },
+              {
+                "subtype": {
+                  "name": "CRF02_AG",
+                  "__typename": "MutationPrevalenceSubtype"
+                },
+                "percentageNaive": 0.0651890482398957,
+                "percentageTreated": 0,
+                "__typename": "MutationPrevalence"
+              }
+            ],
+            "__typename": "MutationPrevalenceByAA"
+          }
+        ],
+        "__typename": "BoundMutationPrevalence"
+      }
+    ],
+    "algorithmComparison": [],
+    "drugResistance": [
+      {
+        "algorithm": {
+          "text": "HIVDB_9.1",
+          "family": "HIVDB",
+          "version": "9.1",
+          "publishDate": "2022-06-02",
+          "__typename": "DrugResistanceAlgorithm"
+        },
+        "gene": {
+          "name": "IN",
+          "drugClasses": [
+            {
+              "name": "INSTI",
+              "fullName": "Integrase Strand Transfer Inhibitor",
+              "__typename": "DrugClass"
+            }
+          ],
+          "__typename": "Gene"
+        },
+        "levels": [
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "BIC",
+              "displayAbbr": "BIC",
+              "fullName": "bictegravir",
+              "__typename": "Drug"
+            },
+            "text": "Potential Low-Level Resistance",
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "CAB",
+              "displayAbbr": "CAB",
+              "fullName": "cabotegravir",
+              "__typename": "Drug"
+            },
+            "text": "Low-Level Resistance",
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "DTG",
+              "displayAbbr": "DTG",
+              "fullName": "dolutegravir",
+              "__typename": "Drug"
+            },
+            "text": "Potential Low-Level Resistance",
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "EVG",
+              "displayAbbr": "EVG",
+              "fullName": "elvitegravir",
+              "__typename": "Drug"
+            },
+            "text": "High-Level Resistance",
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "RAL",
+              "displayAbbr": "RAL",
+              "fullName": "raltegravir",
+              "__typename": "Drug"
+            },
+            "text": "High-Level Resistance",
+            "__typename": "DrugScore"
+          }
+        ],
+        "mutationsByTypes": [
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "mutationType": "Major",
+            "mutations": [
+              {
+                "text": "N155H",
+                "AAs": "H",
+                "reference": "N",
+                "position": 155,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": true,
+                "DRMDrugClass": {
+                  "name": "INSTI",
+                  "fullName": "Integrase Strand Transfer Inhibitor",
+                  "__typename": "DrugClass"
+                },
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              }
+            ],
+            "__typename": "MutationsByType"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "mutationType": "Accessory",
+            "mutations": [],
+            "__typename": "MutationsByType"
+          },
+          {
+            "drugClass": null,
+            "mutationType": "Other",
+            "mutations": [
+              {
+                "text": "L2W",
+                "AAs": "W",
+                "reference": "L",
+                "position": 2,
+                "isUnusual": true,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "K7R",
+                "AAs": "R",
+                "reference": "K",
+                "position": 7,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "R20K",
+                "AAs": "K",
+                "reference": "R",
+                "position": 20,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "V31I",
+                "AAs": "I",
+                "reference": "V",
+                "position": 31,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "L101I",
+                "AAs": "I",
+                "reference": "L",
+                "position": 101,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "T112V",
+                "AAs": "V",
+                "reference": "T",
+                "position": 112,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "T124A",
+                "AAs": "A",
+                "reference": "T",
+                "position": 124,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "T125A",
+                "AAs": "A",
+                "reference": "T",
+                "position": 125,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "F181L",
+                "AAs": "L",
+                "reference": "F",
+                "position": 181,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "V201I",
+                "AAs": "I",
+                "reference": "V",
+                "position": 201,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "K219N",
+                "AAs": "N",
+                "reference": "K",
+                "position": 219,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              },
+              {
+                "text": "N222K",
+                "AAs": "K",
+                "reference": "N",
+                "position": 222,
+                "isUnusual": false,
+                "isApobecMutation": false,
+                "isApobecDRM": false,
+                "isDRM": false,
+                "DRMDrugClass": null,
+                "isUnsequenced": false,
+                "totalReads": null,
+                "allAAReads": null,
+                "__typename": "Mutation"
+              }
+            ],
+            "__typename": "MutationsByType"
+          }
+        ],
+        "commentsByTypes": [
+          {
+            "commentType": "Major",
+            "comments": [
+              {
+                "name": "IN155H",
+                "text": "N155H is a non-polymorphic mutation selected in patients receiving RAL, EVG, and rarely DTG. It is associated with high-level reductions in RAL and EVG susceptibility. It causes low-level reductions in DTG susceptibility.",
+                "highlightText": [
+                  "N155H"
+                ],
+                "boundMutation": {
+                  "position": 155,
+                  "text": "N155H",
+                  "__typename": "Mutation"
+                },
+                "__typename": "BoundMutationComment"
+              }
+            ],
+            "__typename": "CommentsByType"
+          },
+          {
+            "commentType": "Dosage",
+            "comments": [
+              {
+                "name": "CABLow",
+                "text": "This virus is predicted to have low-level reduced susceptibility to CAB. The use of the combination of CAB/RPV should be considered to be relatively contraindicated.",
+                "highlightText": [
+                  "CAB"
+                ],
+                "boundMutation": null,
+                "__typename": "BoundMutationComment"
+              }
+            ],
+            "__typename": "CommentsByType"
+          }
+        ],
+        "drugScores": [
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "BIC",
+              "displayAbbr": "BIC",
+              "__typename": "Drug"
+            },
+            "score": 10,
+            "level": 2,
+            "text": "Potential Low-Level Resistance",
+            "SIR": "S",
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "N155H",
+                    "__typename": "Mutation"
+                  }
+                ],
+                "score": 10,
+                "__typename": "DrugPartialScore"
+              }
+            ],
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "CAB",
+              "displayAbbr": "CAB",
+              "__typename": "Drug"
+            },
+            "score": 25,
+            "level": 3,
+            "text": "Low-Level Resistance",
+            "SIR": "I",
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "N155H",
+                    "__typename": "Mutation"
+                  }
+                ],
+                "score": 25,
+                "__typename": "DrugPartialScore"
+              }
+            ],
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "DTG",
+              "displayAbbr": "DTG",
+              "__typename": "Drug"
+            },
+            "score": 10,
+            "level": 2,
+            "text": "Potential Low-Level Resistance",
+            "SIR": "S",
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "N155H",
+                    "__typename": "Mutation"
+                  }
+                ],
+                "score": 10,
+                "__typename": "DrugPartialScore"
+              }
+            ],
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "EVG",
+              "displayAbbr": "EVG",
+              "__typename": "Drug"
+            },
+            "score": 60,
+            "level": 5,
+            "text": "High-Level Resistance",
+            "SIR": "R",
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "N155H",
+                    "__typename": "Mutation"
+                  }
+                ],
+                "score": 60,
+                "__typename": "DrugPartialScore"
+              }
+            ],
+            "__typename": "DrugScore"
+          },
+          {
+            "drugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "drug": {
+              "name": "RAL",
+              "displayAbbr": "RAL",
+              "__typename": "Drug"
+            },
+            "score": 60,
+            "level": 5,
+            "text": "High-Level Resistance",
+            "SIR": "R",
+            "partialScores": [
+              {
+                "mutations": [
+                  {
+                    "text": "N155H",
+                    "__typename": "Mutation"
+                  }
+                ],
+                "score": 60,
+                "__typename": "DrugPartialScore"
+              }
+            ],
+            "__typename": "DrugScore"
+          }
+        ],
+        "__typename": "DrugResistance"
+      }
+    ],
+    "alignedGeneSequences": [
+      {
+        "firstAA": 1,
+        "lastAA": 288,
+        "alignedNAs": "TTTTGGGATGGAATAGATAGGGCCCAAGAAGAGCATGAGAAATATCACAGTAATTGGAAAGCAATGGCTAGTGATTTTAACCTGCCACCTATAGTAGCAAAAGAAATAGTAGCCAGCTGTGATAAATGTCAGCTAAAAGGAGAAGCCATGCATGGACAAGTAGACTGTAGTCCAGGAATATGGCAATTAGATTGTACACATTTAGAAGGAAAAATTATCCTAGTAGCAGTTCATGTAGCCAGTGGATATATAGAAGCAGAAGTCATTCCAGCAGAGACAGGGCAGGAAACAGCATACTTTATCTTAAAACTAGCAGGAAGATGGCCAGTAAAAGTAATACATACAGACAATGGCAGTAACTTCACCAGTGCTGCGGTTAAGGCCGCCTGCTGGTGGGCAGGGATCAAGCAGGAATTTGGCATTCCCTACAATCCCCAAAGTCAAGGAGTAGTAGAATCTATGCATAAAGAATTAAAGAAAATTATAGGACAAGTAAGAGATCAGGCTGAACATCTTAAGACAGCAGTACAAATGGCAGTACTCATCCATAATTTTAAAAGAAAAGGGGGGATTGGGGGGTACAGTGCAGGGGAAAGAATAATAGACATAATAGCAACAGACATACAAACTAAAGAATTACAAAAACAAATTACAAATATTCAAAAATTTCGGGTTTATTACAGGGACAGCAGAGATCCACTTTGGAAAGGACCAGCAAAACTTCTCTGGAAAGGTGAAGGGGCAGTAGTAATACAAGATAATAGTGACATAAAAGTAGTGCCAAGGAGAAAAGCAAAGATCATTAGAGATTATGGAAAACAGATGGCAGGTGATGATTGTGTGGCAAGTAGACAGGATGAAGAT",
+        "alignedAAs": "FWDGIDRAQEEHEKYHSNWKAMASDFNLPPIVAKEIVASCDKCQLKGEAMHGQVDCSPGIWQLDCTHLEGKIILVAVHVASGYIEAEVIPAETGQETAYFILKLAGRWPVKVIHTDNGSNFTSAAVKAACWWAGIKQEFGIPYNPQSQGVVESMHKELKKIIGQVRDQAEHLKTAVQMAVLIHNFKRKGGIGGYSAGERIIDIIATDIQTKELQKQITNIQKFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAKIIRDYGKQMAGDDCVASRQDED",
+        "gene": {
+          "name": "IN",
+          "length": 288,
+          "__typename": "Gene"
+        },
+        "mutations": [
+          {
+            "text": "L2W",
+            "AAs": "W",
+            "unusualAAs": "[W]",
+            "reference": "L",
+            "position": 2,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": true,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "TGG",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "W",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "K7R",
+            "AAs": "R",
+            "unusualAAs": "[]",
+            "reference": "K",
+            "position": 7,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "AGG",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "R",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "R20K",
+            "AAs": "K",
+            "unusualAAs": "[]",
+            "reference": "R",
+            "position": 20,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "AAA",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "K",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "V31I",
+            "AAs": "I",
+            "unusualAAs": "[]",
+            "reference": "V",
+            "position": 31,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "ATA",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "I",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "L101I",
+            "AAs": "I",
+            "unusualAAs": "[]",
+            "reference": "L",
+            "position": 101,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "ATC",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "I",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "T112V",
+            "AAs": "V",
+            "unusualAAs": "[]",
+            "reference": "T",
+            "position": 112,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "GTA",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "V",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "T124A",
+            "AAs": "A",
+            "unusualAAs": "[]",
+            "reference": "T",
+            "position": 124,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "GCT",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "A",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "T125A",
+            "AAs": "A",
+            "unusualAAs": "[]",
+            "reference": "T",
+            "position": 125,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "GCG",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "A",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "N155H",
+            "AAs": "H",
+            "unusualAAs": "[]",
+            "reference": "N",
+            "position": 155,
+            "primaryType": "Major",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": true,
+            "DRMDrugClass": {
+              "name": "INSTI",
+              "fullName": "Integrase Strand Transfer Inhibitor",
+              "__typename": "DrugClass"
+            },
+            "totalReads": null,
+            "triplet": "CAT",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "H",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "F181L",
+            "AAs": "L",
+            "unusualAAs": "[]",
+            "reference": "F",
+            "position": 181,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "CTC",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "L",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "V201I",
+            "AAs": "I",
+            "unusualAAs": "[]",
+            "reference": "V",
+            "position": 201,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "ATA",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "I",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "K219N",
+            "AAs": "N",
+            "unusualAAs": "[]",
+            "reference": "K",
+            "position": 219,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "AAT",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "N",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          },
+          {
+            "text": "N222K",
+            "AAs": "K",
+            "unusualAAs": "[]",
+            "reference": "N",
+            "position": 222,
+            "primaryType": "Other",
+            "isApobecMutation": false,
+            "hasStop": false,
+            "isUnsequenced": false,
+            "isUnusual": false,
+            "isAmbiguous": false,
+            "isDRM": false,
+            "DRMDrugClass": null,
+            "totalReads": null,
+            "triplet": "AAA",
+            "allAAReads": null,
+            "__typename": "Mutation",
+            "displayAAs": "K",
+            "insertedNAs": "",
+            "isInsertion": false,
+            "isDeletion": false
+          }
+        ],
+        "unsequencedRegions": {
+          "size": 0,
+          "regions": [],
+          "__typename": "UnsequencedRegions"
+        },
+        "sdrms": [
+          {
+            "text": "N155H",
+            "SDRMDrugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "__typename": "Mutation"
+          }
+        ],
+        "tsms": [
+          {
+            "text": "N155H",
+            "TSMDrugClass": {
+              "name": "INSTI",
+              "__typename": "DrugClass"
+            },
+            "__typename": "Mutation"
+          }
+        ],
+        "__typename": "AlignedGeneSequence"
+      }
+    ],
+    "__typename": "SequenceAnalysis"
+  }
+}
