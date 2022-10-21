@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 # This is a script designed to manipulate the Integase json file from stanford
-echo "===========================Manipulate the Stanford HIV Json file for Integrase======================================================================================================================"
-echo -e "This program has been developed by; \n\tStephen Kanyerezi (kanyerezi30@gmail.com) & Ivan Sserwadda (ivangunz23@gmail.com)\nFor any assistance, raise an issue on the github repo or reach out to the developers"
+echo -e "===========================Manipulate the Stanford HIV Json file for Integrase========================================================================================================================\n"
+echo -e "This program has been developed by; \n\tStephen Kanyerezi (kanyerezi30@gmail.com) & Ivan Sserwadda (ivangunz23@gmail.com)\nFor any assistance, raise an issue on the github repo or reach out to the developers\n"
+echo -e "\n======================================================================================================================================================================================================"
 echo -e "Program is running .......................................................................................................\nWait for a few seconds"
 input=$(echo $1 | sed 's;/$;;') # provide an absolute/relative path for input of json
 output=$(echo $2 | sed 's;/$;;') # provide an absolute/relative path for output of resulting json
