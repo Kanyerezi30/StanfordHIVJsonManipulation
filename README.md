@@ -25,6 +25,16 @@ rtpr <path of directory with rtpr raw json files> <path of directory for formatt
 
 ```
 
+## Example
+
+```
+integrase $HOME/StanfordHIVJsonManipulation/test_dataset/IN_test.json $HOME/StanfordHIVJsonManipulation
+rtpr $HOME/StanfordHIVJsonManipulation/test_dataset/Raw_RTPR.json $HOME/StanfordHIVJsonManipulation
+
+```
+
+The results will be found in StanfordHIVJsonManipulation
+
 ## Test
 
 The program has been tested on;
