@@ -6,6 +6,8 @@ cho -e "===========================Manipulate the Stanford HIV Json file for RTP
 echo -e "This program has been developed by; \n\tStephen Kanyerezi (kanyerezi30@gmail.com) & Ivan Sserwadda (ivangunz23@gmail.com)\nFor any assistance, raise an issue on the github repo or reach out to the developers\n"
 echo -e "\n======================================================================================================================================================================================================"
 echo -e "Program is running .......................................................................................................\nWait for a few seconds"
+
+echo -e "Usage; \n\t\tintegrase <path of directory containg jsons> <path of output directory for the jsons>\n\n"
 # get the codons 
 input=$(echo $1 | sed 's;/$;;') # provide an absolute/relative path for input of json
 output=$(echo $2 | sed 's;/$;;') # provide an absolute/relative path for output of resulting json
