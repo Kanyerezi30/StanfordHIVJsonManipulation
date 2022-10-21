@@ -1,7 +1,8 @@
 
-<p align="middle">`
-<img width="300" height="260" src="assets/jcrc.jpg"> </p> <p align="middle">`
-<img width="300" height="200" src="assets/unhls.png">
+
+<p align="middle">
+  <img src="assets/jcrc.jpg" width="170" height="170" />
+  <img src="assets/unhls.png" width="230" height="170" />
 </p>
 
 # Description
@@ -51,7 +52,7 @@ The program has been tested on;
 
 The software developing team works round the clock to ensure the bugs within the program are captured and fixed. For support or any inquiry: You can submit your query using the [Issue Tracker](https://github.com/Kanyerezi30/StanfordHIVJsonManipulation/issues)
 
-<p align="middle">`
-<img width="300" height="260" src="assets/jcrc.jpg"> </p> <p align="middle">`
-<img width="300" height="200" src="assets/unhls.png">
+<p align="middle">
+  <img src="assets/jcrc.jpg" width="170" height="170" />
+  <img src="assets/unhls.png" width="230" height="170" />
 </p>
