@@ -4,11 +4,26 @@
 echo -e "===========================Manipulate the Stanford HIV Json file for Integrase========================================================================================================================\n"
 echo -e "This program has been developed by; \n\tStephen Kanyerezi (kanyerezi30@gmail.com) & Ivan Sserwadda (ivangunz23@gmail.com)\nFor any assistance, raise an issue on the github repo or reach out to the developers\n"
 echo -e "\n======================================================================================================================================================================================================"
+
+help()
+{
+	# Display Help
+	echo -e "Usage: integrase  <path of directory containg jsons>  <path of output directory for the jsons>"
+}
+
+if [[ $# -ne 2 ]]
+then
+	echo "Missing either input directory or output directory"
+	help
+	exit 1
+fi
+
 echo -e "Program is running .......................................................................................................\nWait for a few seconds"
 
-echo -e "Usage; \n\t\tintegrase <path of directory containg jsons> <path of output directory for the jsons>\n\n"
 input=$(echo $1 | sed 's;/$;;') # provide an absolute/relative path for input of json
 output=$(echo $2 | sed 's;/$;;') # provide an absolute/relative path for output of resulting json
+
+
 for i in $(ls ${input}/*json)
 do
 	# get the codons 
