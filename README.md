@@ -24,3 +24,8 @@ integrase <path of directory with integrase raw json files> <path of directory f
 rtpr <path of directory with rtpr raw json files> <path of directory for formatted json to be output>
 
 ```
+
+## Test
+
+The program has been tested on;
+- Ubuntu 22.04 LTS
