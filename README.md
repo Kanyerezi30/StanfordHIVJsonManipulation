@@ -2,7 +2,7 @@
 
 <p align="middle">
   <img src="assets/jcrc.jpg" width="170" height="170" />
-  <img src="assets/unhls.png" width="230" height="170" />
+  <img src="assets/unhls.png" width="170" height="170" />
 </p>
 
 # Description
@@ -54,5 +54,5 @@ The software developing team works round the clock to ensure the bugs within the
 
 <p align="middle">
   <img src="assets/jcrc.jpg" width="170" height="170" />
-  <img src="assets/unhls.png" width="230" height="170" />
+  <img src="assets/unhls.png" width="170" height="170" />
 </p>
