@@ -2,7 +2,7 @@
 
 # This is a script designed to manipulate the RTPR json file from stanford
 
-cho -e "===========================Manipulate the Stanford HIV Json file for RTPR========================================================================================================================\n"
+echo -e "===========================Manipulate the Stanford HIV Json file for RTPR========================================================================================================================\n"
 echo -e "This program has been developed by; \n\tStephen Kanyerezi (kanyerezi30@gmail.com) & Ivan Sserwadda (ivangunz23@gmail.com)\nFor any assistance, raise an issue on the github repo or reach out to the developers\n"
 echo -e "\n======================================================================================================================================================================================================"
 echo -e "Program is running .......................................................................................................\nWait for a few seconds"
