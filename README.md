@@ -12,6 +12,8 @@ git clone https://github.com/Kanyerezi30/StanfordHIVJsonManipulation.git
 
 bash StanfordHIVJsonManipulation/install.sh
 
+source $HOME/.bashrc
+
 ```
 
 ## Usage
