@@ -11,9 +11,22 @@ help()
 	echo -e "Usage: integrase  <path of directory containg jsons>  <path of output directory for the jsons>"
 }
 
+while getopts ":h" option
+do
+	case $option in
+		h) # display help
+			help
+			exit;;
+		\?) # Invalid option
+			echo "Error: Invalid option"
+			help
+			exit;;
+	esac
+done
+
 if [[ $# -ne 2 ]]
 then
-	echo "Missing either input directory or output directory"
+	echo "Wrong number of arguments"
 	help
 	exit 1
 fi
