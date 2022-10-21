@@ -13,3 +13,12 @@ git clone https://github.com/Kanyerezi30/StanfordHIVJsonManipulation.git
 bash StanfordHIVJsonManipulation/install.sh
 
 ```
+
+## Usage
+
+```
+integrase <path of directory with integrase raw json files> <path of directory for formatted json to be output>
+
+rtpr <path of directory with rtpr raw json files> <path of directory for formatted json to be output>
+
+```
