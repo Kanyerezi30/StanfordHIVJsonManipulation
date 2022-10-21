@@ -9,7 +9,7 @@ echo -e "\n=====================================================================
 help()
 {
         # Display Help
-        echo -e "Usage: integrase  <path of directory containg jsons>  <path of output directory for the jsons>"
+        echo -e "Usage: rtpr  <path of directory containg jsons>  <path of output directory for the jsons>"
 }
 
 while getopts ":h" option
